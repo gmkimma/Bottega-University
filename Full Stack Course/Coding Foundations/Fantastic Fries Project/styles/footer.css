@@ -1,0 +1,56 @@
+.footer-section {
+  background-color: #11122b;
+  color: #cbcbcb;
+  padding-bottom: 25px;
+}
+
+.footer-section > .footer-content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.footer-section > .footer-content > .footer-image img{
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.footer-section > .footer-content > .contact-hours-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 3px;
+  margin-bottom: 45px;
+}
+
+.footer-section > .footer-content > .contact-hours-wrapper > .hours {
+  color: #cea135;
+  font-size: 0.8em;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 125px;
+  margin: 65px 0 25px 0;
+  font-size: 1.5em;
+}
+
+.social-media-wrapper a {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #cbcbcb;
+  transition: 0.5s;
+}
+
+.social-media-wrapper a:hover {
+  color: #cea135;
+}
+
+.footer-section > .footer-content > .copyright {
+  text-align: center;
+  color: #858585;
+  font-size: 0.7em;
+}

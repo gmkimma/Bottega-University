@@ -1,0 +1,76 @@
+/* Sign Up Section Styles */
+.sign-up-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: rgb(59, 62, 70);
+  background: linear-gradient(90deg, rgba(59, 62, 70, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  padding-top: 65px;
+}
+
+.sign-up-left {
+  padding: 0 50px;
+}
+
+.sign-up-left > .description > h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.sign-up-left > .description > h2 > .social-development {
+  font-weight: 700;
+}
+
+.sign-up-left > .description > h3 {
+  color: #8B979F;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.sign-up-left > .sign-up-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  max-width: 515px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.sign-up-left > .sign-up-links > .sign-up > a {
+  color: #000;
+  background-color: #4BCF79;
+  padding: 15px 25px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.sign-up-left > .sign-up-links > .learn-more > a {
+  color: #fff;
+  background-color: #000;
+  padding: 15px 25px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.sign-up-left > .sign-up-links > .sign-up > a:hover, .sign-up-left > .sign-up-links > .learn-more > a:hover {
+  color: #EDCD6B;
+}
+
+.sign-up-right > .projects > p {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.sign-up-right > .projects > p > .codepen-projects {
+  color: #69DAF7;
+}
+
+.sign-up-right > .project-image img {
+  width: 550px;
+}

@@ -1,0 +1,92 @@
+/* Common nav styles */
+.navigation-wrapper {
+  background-color: #000;
+  color: #fff;
+  /* Flexbox container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+}
+
+.nav-link a:hover, .spark > a:hover, .account > a:hover, .search a:hover {
+  color: #EDCD6B;
+}
+
+/* Left Column Styles */
+.logo img{
+  width: 250px;
+}
+
+/* Center Column Styles */
+.navigation-wrapper > .center-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.explore {
+  color: #EDCD6B;
+  text-transform: uppercase;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link > a {
+  color: #fff;
+  font-weight: bold;
+  padding-right: 10px;
+  transition: 0.5s;
+}
+
+.spark > a {
+  color: #8B979F;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+
+.spark > a > i {
+  padding-left: 10px;
+}
+
+/* Right Column Styles */
+.navigation-wrapper > .right-column > .account-links-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-wrapper > .right-column > .account-links-wrapper :nth-child(3){
+  margin-right: 15px;
+}
+
+.account {
+  background-color: #3b3c3f;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+.account > a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.account > a > i {
+  color: #4BCF79;
+  margin-left: 5px;
+}
+
+.search {
+  margin: 0 25px;
+}
+
+.search > a {
+  color: #7B7E8B;
+  font-size: 1.4em;
+  transition: 0.5s;
+}
